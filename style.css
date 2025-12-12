@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #1f3b2e;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #e6f5ec;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #1f3b2e;
+    font-weight: bold;
+}
+
+#hero {
+    height: 70vh;
+    background: url('https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?auto=format&fit=crop&w=1200&q=60') center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+    color: white;
+}
+
+.botao {
+    background: #1f8a5f;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* ====== SEÇÃO SOBRE ====== */
+
+.secao {
+    padding: 60px 10%;
+}
+
+#sobre .sobre-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.sobre-texto {
+    flex: 1;
+}
+
+.sobre-texto h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.sobre-texto p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.sobre-img {
+    flex: 1;
+}
+
+.sobre-img img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
